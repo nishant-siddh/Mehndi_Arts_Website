@@ -5,7 +5,7 @@ const About = () => {
     <div className='mt-20 bg-[#ffffeb] py-20'>
       <div className="container mx-auto flex flex-wrap gap-7 items-center justify-center">
         <div className="md:w-[40%]">
-          <img src={aboutImg} alt="about image of mehndi design" className='about_img w-96 rounded-tr-[70px] rounded-bl-[70px]' />
+          <img src={aboutImg} alt="about image of mehndi design" className='lazy-drop-animation about_img w-96 rounded-tr-[70px] rounded-bl-[70px]' />
         </div>
         <div className="flex flex-col gap-8 md:w-[45%] items-center justify-center">
           <div className="relative w-fit mx-auto">
