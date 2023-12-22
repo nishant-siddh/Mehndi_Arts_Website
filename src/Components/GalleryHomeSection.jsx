@@ -14,10 +14,10 @@ const GalleryHomeSection = () => {
 
             <div className='flex flex-col items-center'>
                 <div className='flex flex-wrap gap-4 items-center justify-center mx-auto'>
-                    <img src={galleryImg1} alt="gallery_img" className='w-64 h-64 rounded-lg' />
-                    <img src={galleryImg3} alt="gallery_img" className='w-64 h-64 rounded-lg' />
-                    <img src={galleryImg2} alt="gallery_img" className='w-64 h-64 rounded-lg' />
-                    <img src={galleryImg4} alt="gallery_img" className='w-64 h-64 rounded-lg' />
+                    <img src={galleryImg1} alt="gallery_img" className='lazy-drop-animation w-64 h-64 rounded-lg' />
+                    <img src={galleryImg3} alt="gallery_img" className='lazy-drop-animation w-64 h-64 rounded-lg' />
+                    <img src={galleryImg2} alt="gallery_img" className='lazy-drop-animation w-64 h-64 rounded-lg' />
+                    <img src={galleryImg4} alt="gallery_img" className='lazy-drop-animation w-64 h-64 rounded-lg' />
                 </div>
 
                 <button className="bg-[#ecbb4a]/80 px-3 py-2 text-white rounded-full text-sm hover:bg-[#ecbb4a] mt-10">
