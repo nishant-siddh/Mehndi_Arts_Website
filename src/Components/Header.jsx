@@ -55,7 +55,7 @@ const Header = () => {
       <div
         className={`container mx-auto md:px-10 flex justify-between items-center transition-all duration-300`}
       >
-        <img src={logo} alt="Logo" className={`w-24 h-20 sm:w-28 sm:h-24`} />
+        <img src={logo} alt="Logo" className={`lazy-drop-animation w-24 h-20 sm:w-28 sm:h-24`} />
         <div className={`w-full sm:w-fit m-0 absolute top-[5.3rem] left-0 sm:relative sm:top-0 bg-[#4E6659] ${isNavOpen ? 'py-5' : 'py-0'} transition-all duration-300`}>
           <ul className={`list ${isNavOpen ? "flex flex-col gap-5 mx-auto" : 'hidden'} sm:flex-row justify-between items-center gap-10 sm:flex text-[#FFFFF0]/90 hover: text-[#FFFFF0]`}>
             <li>
