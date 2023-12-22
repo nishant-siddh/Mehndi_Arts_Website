@@ -46,7 +46,7 @@ const ServicesSection = () => {
                 <img
                   src={item.img}
                   alt="madhubani_mehndi"
-                  className="rounded-lg h-64 w-64"
+                  className="lazy-drop-animation rounded-lg h-64 w-64"
                 />
               </div>
               <div className="flex flex-col justify-center items-center gap-3">
