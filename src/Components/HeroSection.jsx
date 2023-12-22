@@ -10,18 +10,18 @@ const HeroSection = () => {
           <img
             src={img1}
             alt="mahndi_design"
-            className="w-full md:w-[400px] md:ml-20 opacity-[0.4] md:opacity-[0.6]"
+            className="lazy-drop-animation w-full md:w-[400px] md:ml-20 opacity-[0.4] md:opacity-[0.6]"
           />
           <div className="md:block hidden">
             <img
               src={img2}
               alt="mahndi_design"
-              className="absolute -top-20 left-80 w-[180px] h-[250px] ml-20 opacity-[0.9]"
+              className="lazy-drop-animation absolute -top-20 left-80 w-[180px] h-[250px] ml-20 opacity-[0.9]"
             />
             <img
               src={img3}
               alt="mahndi_design"
-              className="absolute -bottom-20 -left-20 w-[180px] h-[250px] ml-20 opacity-[0.9]"
+              className="lazy-drop-animation absolute -bottom-20 -left-20 w-[180px] h-[250px] ml-20 opacity-[0.9]"
             />
           </div>
         </div>
