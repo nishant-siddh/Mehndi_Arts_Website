@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="container mx-auto px-10">
         <div className="flex flex-wrap items-center justify-between md:px-28 py-5">
           <div className="mx-auto lg:m-0">
-            <img src={logo} alt="logo" className="w-32 sm:w-44" />
+            <img src={logo} alt="logo" className="lazy-drop-animation w-32 sm:w-44" />
           </div>
 
           <div className="flex flex-col items-start gap-7 md:w-fit text-sm">
