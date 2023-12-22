@@ -165,14 +165,14 @@ const ServicesPage = () => {
                         .map((service) => {
                             return (
                                 <>
-                                    <div className="flex gap-5">
-                                        <p className="mt-5 text-base text-justify w-1/2">
+                                    <div className="flex flex-col-reverse lg:flex-row justify-center gap-10 lg:gap-5 px-4">
+                                        <p className="mt-5 text-base text-justify lg:w-1/2">
                                             {service.description}
                                             <br />
                                             <br />
                                             <p>For bookings and inquiries, reach out to us at <span className="text-[#DAA520] cursor-pointer">+91 8384015480</span> or drop us an email at <span className="text-[#DAA520] cursor-pointer">info@keshavMehandiarts.com</span>. Let Keshav's artistry make your moments truly unforgettable.</p>
                                         </p>
-                                        <div className="w-1/2 flex justify-center">
+                                        <div className="lg:w-1/2 flex justify-center mt-10">
                                             <img src={service.images[0]} alt="mehndi image" className="service_page_image w-[80%] h-[30rem] rounded-tl-[70px] rounded-br-[70px]" />
                                         </div>
                                     </div>
