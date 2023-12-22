@@ -95,7 +95,7 @@ const Footer = () => {
               </div>
             </NavLink>
 
-            <NavLink to=''>
+            <NavLink to='https://x.com/keshavmehandiar?t=vzczT4s8zztdFhod7yqERA&s=09'>
               <div className="bg-blue-600/80 hover:bg-blue-600 cursor-pointer rounded-full p-2">
                 <TiSocialTwitter className="text-2xl" />
               </div>
