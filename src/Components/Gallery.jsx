@@ -29,26 +29,26 @@ const Gallery = () => {
         </div>
 
         <div className="flex gap-3 flex-wrap items-center justify-center mx-auto">
-          <img src={galleryImg1} alt="mehndi design" className="w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
-          <img src={galleryImg2} alt="mehndi design" className="w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
-          <img src={galleryImg3} alt="mehndi design" className="w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
-          <img src={galleryImg4} alt="mehndi design" className="w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
-          <img src={galleryImg5} alt="mehndi design" className="w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
-          <img src={galleryImg6} alt="mehndi design" className="w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
-          <img src={galleryImg7} alt="mehndi design" className="w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
-          <img src={galleryImg8} alt="mehndi design" className="w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
-          <img src={galleryImg9} alt="mehndi design" className="w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
-          <img src={galleryImg10} alt="mehndi design" className="w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
-          <img src={galleryImg11} alt="mehndi design" className="w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
-          <img src={galleryImg12} alt="mehndi design" className="w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
-          <img src={galleryImg13} alt="mehndi design" className="w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
-          <img src={galleryImg14} alt="mehndi design" className="w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
-          <img src={galleryImg15} alt="mehndi design" className="w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
-          <img src={galleryImg16} alt="mehndi design" className="w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
-          <img src={galleryImg17} alt="mehndi design" className="w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
-          <img src={galleryImg18} alt="mehndi design" className="w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
-          <img src={galleryImg19} alt="mehndi design" className="w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
-          <img src={galleryImg20} alt="mehndi design" className="w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
+          <img src={galleryImg1} alt="mehndi design" className="lazy-drop-animation w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
+          <img src={galleryImg2} alt="mehndi design" className="lazy-drop-animation w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
+          <img src={galleryImg3} alt="mehndi design" className="lazy-drop-animation w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
+          <img src={galleryImg4} alt="mehndi design" className="lazy-drop-animation w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
+          <img src={galleryImg5} alt="mehndi design" className="lazy-drop-animation w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
+          <img src={galleryImg6} alt="mehndi design" className="lazy-drop-animation w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
+          <img src={galleryImg7} alt="mehndi design" className="lazy-drop-animation w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
+          <img src={galleryImg8} alt="mehndi design" className="lazy-drop-animation w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
+          <img src={galleryImg9} alt="mehndi design" className="lazy-drop-animation w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
+          <img src={galleryImg10} alt="mehndi design" className="lazy-drop-animation w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
+          <img src={galleryImg11} alt="mehndi design" className="lazy-drop-animation w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
+          <img src={galleryImg12} alt="mehndi design" className="lazy-drop-animation w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
+          <img src={galleryImg13} alt="mehndi design" className="lazy-drop-animation w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
+          <img src={galleryImg14} alt="mehndi design" className="lazy-drop-animation w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
+          <img src={galleryImg15} alt="mehndi design" className="lazy-drop-animation w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
+          <img src={galleryImg16} alt="mehndi design" className="lazy-drop-animation w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
+          <img src={galleryImg17} alt="mehndi design" className="lazy-drop-animation w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
+          <img src={galleryImg18} alt="mehndi design" className="lazy-drop-animation w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
+          <img src={galleryImg19} alt="mehndi design" className="lazy-drop-animation w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
+          <img src={galleryImg20} alt="mehndi design" className="lazy-drop-animation w-60 h-72 rounded-lg hover:shadow-2xl transition-all duration-200" />
         </div>
       </div>
     </div>
