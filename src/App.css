@@ -75,45 +75,28 @@ body{
 }
 
 
-/* .dynamic-text{
-    line-height: 60px;
-    height: 60px;
-    overflow: hidden;
+
+.lazy-drop-animation {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInDown 0.5s ease-in-out forwards;
 }
 
-.dynamic-text li {
-    position: relative;
-    top: 0;
-    animation: slide 10s steps(4) infinite;
+.lazy-drop-animation:nth-child(n) {
+    animation-delay: calc(0.5s * (n - 1));
 }
 
-@keyframes slide {
-    100%{
-        top: -400px;
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
-
-.dynamic-text span{
-    position: relative;
-}
-
-.dynamic-text span::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    border-left: 1px solid #556B2F;
-    background: #fff;
-    animation: typing 2s steps(15) infinite;
-}
-
-@keyframes typing {
-    100%{
-        left: 100%;
-        margin: 0 -35px 0 35px;
-    }
-} */
 
 .list li {
     position: relative
