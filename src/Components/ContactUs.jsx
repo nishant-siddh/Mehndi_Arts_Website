@@ -55,35 +55,39 @@ const ContactUs = () => {
                 <input
                   type="text"
                   placeholder="Name"
-                  className="border border-gray-300 rounded-md p-2"
+                  className="border border-gray-300 rounded-md p-2 outline-none"
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
+                  required
                 />
                 <input
                   type="email"
                   placeholder="Email"
-                  className="border border-gray-300 rounded-md p-2"
+                  className="border border-gray-300 rounded-md p-2 outline-none"
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
+                  required
                 />
                 <input
                   type="phoneNo"
                   placeholder="Enter your mobile number"
-                  className="border border-gray-300 rounded-md p-2"
+                  className="border border-gray-300 rounded-md p-2 outline-none"
                   name="phoneNo"
                   value={formData.phoneNo}
                   onChange={handleChange}
+                  required
                 />
                 <textarea
                   name="message"
                   cols="30"
                   rows="5"
                   placeholder="Message"
-                  className="border border-gray-300 rounded-md p-2"
+                  className="border border-gray-300 rounded-md p-2 outline-none"
                   value={formData.message}
                   onChange={handleChange}
+                  required
                 ></textarea>
                 <button
                   type="submit"
