@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { TiSocialFacebook } from "react-icons/ti";
 import { TiSocialInstagram } from "react-icons/ti";
 import { TiSocialYoutube } from "react-icons/ti";
@@ -6,6 +7,27 @@ import { TiSocialTwitter } from "react-icons/ti";
 import { NavLink } from "react-router-dom";
 
 const ContactUs = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phoneNo: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSendMessage = (e) => {
+    e.preventDefault();
+    const { name, email, phoneNo, message } = formData;
+    const text = `Name: ${name}%0AEmail: ${email}%0APhone Number: ${phoneNo}%0AMessage: ${message}`;
+    const phoneNumber = "8384015480";
+    const url = `https://wa.me/${phoneNumber}?text=${text}`;
+
+    window.open(url, "_blank");
+  };
+
   return (
     <div className="mt-32 flex flex-col gap-10">
       <div className="relative w-fit mx-auto">
@@ -19,7 +41,6 @@ const ContactUs = () => {
         style={{ border: 0 }}
         allowfullscreen=""
         loading="lazy"
-        // referrerpolicy="no-referrer-when-downgrade"
       />
 
       <div>
@@ -28,9 +49,54 @@ const ContactUs = () => {
             <h2 className="text-2xl font-bold text-center">
               Keshav Mehandi Arts
             </h2>
+
+            <form onSubmit={handleSendMessage} className="w-full p-2">
+              <div className="flex flex-col gap-3">
+                <input
+                  type="text"
+                  placeholder="Name"
+                  className="border border-gray-300 rounded-md p-2"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                />
+                <input
+                  type="email"
+                  placeholder="Email"
+                  className="border border-gray-300 rounded-md p-2"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                />
+                <input
+                  type="phoneNo"
+                  placeholder="Enter your mobile number"
+                  className="border border-gray-300 rounded-md p-2"
+                  name="phoneNo"
+                  value={formData.phoneNo}
+                  onChange={handleChange}
+                />
+                <textarea
+                  name="message"
+                  cols="30"
+                  rows="5"
+                  placeholder="Message"
+                  className="border border-gray-300 rounded-md p-2"
+                  value={formData.message}
+                  onChange={handleChange}
+                ></textarea>
+                <button
+                  type="submit"
+                  className="bg-[#DAA520] text-white py-2 rounded-md"
+                >
+                  Send Message
+                </button>
+              </div>
+            </form>
+
             <p className="text-sm text-zinc-500 px-10 md:px-0 text-center">
-              <b>Address:</b> 1/1, 1st Floor, Opposite Metro Pillar No. 184,
-              Near Tilak Nagar Metro Station, New Delhi, Delhi 110018
+              <b>Address:</b> 1/9299, Main Rohtash Nagar road, Babarpur, Near
+              Bhavya Collection, Shahdara, Delhi
             </p>
             <p className="text-sm text-zinc-500 px-10 md:px-0 text-center">
               <b>Phone:</b> +91 8384015480
@@ -58,7 +124,7 @@ const ContactUs = () => {
                 <TiSocialYoutube className="text-2xl" />
               </div>
             </NavLink>
-            
+
             <NavLink to="">
               <div className="bg-blue-700/80 hover:bg-blue-700 cursor-pointer rounded-full p-2">
                 <TiSocialLinkedin className="text-2xl" />
