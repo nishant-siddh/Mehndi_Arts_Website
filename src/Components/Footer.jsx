@@ -55,10 +55,7 @@ const Footer = () => {
         <div className="flex flex-col gap-3 md:px-24 text-sm mt-10">
           <p>Providing On Location Mehandi Services in India</p>
           <p>
-            Ashok Vihar | Chandni Chowk | Lodhi Road | Moti Bagh | Central Delhi
-            | Dilshad Garden | Dwarka | Bihar | Bhopal | Chennai | Indore |
-            Jalandhar | Jharkand | Mahtura | Madhya Pradesh | Mirzapur | Jaiput
-            | Delhi NCR | and all other states of India
+            Delhi | Ghaziabad | Haryana | Faridabad | Gurgaon | Noida | and all other states of India
           </p>
         </div>
 
