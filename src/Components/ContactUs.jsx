@@ -22,7 +22,7 @@ const ContactUs = () => {
     e.preventDefault();
     const { name, email, phoneNo, message } = formData;
     const text = `Name: ${name}%0AEmail: ${email}%0APhone Number: ${phoneNo}%0AMessage: ${message}`;
-    const phoneNumber = "8384015480";
+    const phoneNumber = "918384015480";
     const url = `https://wa.me/${phoneNumber}?text=${text}`;
 
     window.open(url, "_blank");
