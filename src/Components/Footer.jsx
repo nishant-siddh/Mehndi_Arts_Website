@@ -36,8 +36,7 @@ const Footer = () => {
                 <CiLocationOn className="text-base" />
                 <div className="flex justify-center items-center gap-2">
                   <p className="flex flex-wrap">
-                    1/9299, Main Rohtash Nagar road, Babarpur, Near Bhavya
-                    Collection, Shahdara, Delhi
+                    1/9299, Balbir Nagar Main Rd, near bhavy Collection, Mohan Park, West Rohtash Nagar, Babarpur, Delhi, 110032
                   </p>
                 </div>
               </div>
