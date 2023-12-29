@@ -99,8 +99,7 @@ const ContactUs = () => {
             </form>
 
             <p className="text-sm text-zinc-500 px-10 md:px-0 text-center">
-              <b>Address:</b> 1/9299, Main Rohtash Nagar road, Babarpur, Near
-              Bhavya Collection, Shahdara, Delhi
+              <b>Address:</b> 1/9299, Balbir Nagar Main Rd, near bhavy Collection, Mohan Park, West Rohtash Nagar, Babarpur, Delhi, 110032
             </p>
             <p className="text-sm text-zinc-500 px-10 md:px-0 text-center">
               <b>Phone:</b> +91 8384015480
