@@ -22,7 +22,7 @@ const ContactUs = () => {
     e.preventDefault();
     const { name, email, phoneNo, message } = formData;
     const text = `Name: ${name}%0AEmail: ${email}%0APhone Number: ${phoneNo}%0AMessage: ${message}`;
-    const phoneNumber = "918384015480";
+    const phoneNumber = "8384015480";
     const url = `https://wa.me/${phoneNumber}?text=${text}`;
 
     window.open(url, "_blank");
@@ -41,6 +41,7 @@ const ContactUs = () => {
         style={{ border: 0 }}
         allowfullscreen=""
         loading="lazy"
+        // referrerpolicy="no-referrer-when-downgrade"
       />
 
       <div>
@@ -99,7 +100,9 @@ const ContactUs = () => {
             </form>
 
             <p className="text-sm text-zinc-500 px-10 md:px-0 text-center">
-              <b>Address:</b> 1/9299, Balbir Nagar Main Rd, near bhavy Collection, Mohan Park, West Rohtash Nagar, Babarpur, Delhi, 110032
+              <b>Address:</b> 1/9299, Balbir Nagar Main Rd, near bhavy
+              Collection, Mohan Park, West Rohtash Nagar, Babarpur, Delhi,
+              110032
             </p>
             <p className="text-sm text-zinc-500 px-10 md:px-0 text-center">
               <b>Phone:</b> +91 8384015480
