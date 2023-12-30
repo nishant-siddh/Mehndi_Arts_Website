@@ -75,7 +75,7 @@ const Header = () => {
             } sm:flex-row justify-between items-center gap-10 sm:flex text-[#FFFFF0]/90 hover: text-[#FFFFF0]`}
           >
             <li>
-              <NavLink to="/" onclick={setIsNavOpen(false)}>Home</NavLink>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
               <a href="/#aboutSection" className="cursor-pointer">
@@ -83,7 +83,7 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <NavLink to="/gallery" onclick={setIsNavOpen(false)}>Gallery</NavLink>
+              <NavLink to="/gallery">Gallery</NavLink>
             </li>
             <li>
               <div
@@ -117,7 +117,7 @@ const Header = () => {
               </div>
             </li>
             <li>
-              <NavLink to="/contact-us" onclick={setIsNavOpen(false)}>Contact Us</NavLink>
+              <NavLink to="/contact-us">Contact Us</NavLink>
             </li>
           </ul>
         </div>
@@ -138,3 +138,4 @@ const Header = () => {
 };
 
 export default Header;
+ 
