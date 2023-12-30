@@ -1,6 +1,17 @@
+import { useEffect } from "react";
 import aboutImg from "../images/extra/aboutImage.png";
+import { useLocation } from "react-router-dom";
 
 const About = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    const aboutSection = document.getElementById("aboutSection");
+    if (location.hash === "#aboutSection") {
+      aboutSection.scrollIntoView({ behavior: "smooth" });
+    }
+  }, []);
+
   return (
     <div className="mt-[6.5rem] bg-[#ffffeb] py-[6.5rem]" id="aboutSection">
       <div className="container mx-auto flex flex-wrap gap-7 items-center justify-center">
