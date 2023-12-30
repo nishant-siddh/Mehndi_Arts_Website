@@ -2,7 +2,7 @@ import aboutImg from "../images/extra/aboutImage.png";
 
 const About = () => {
   return (
-    <div className="mt-20 bg-[#ffffeb] py-20" id="aboutSection">
+    <div className="mt-[6.5rem] bg-[#ffffeb] py-[6.5rem]" id="aboutSection">
       <div className="container mx-auto flex flex-wrap gap-7 items-center justify-center">
         <div className="md:w-[40%]">
           <img
