@@ -10,7 +10,7 @@ const HeroSection = () => {
           <img
             src={img1}
             alt="mahndi_design"
-            className="lazy-drop-animation w-full md:w-[400px] md:ml-20 opacity-[0.4] md:opacity-[0.6]"
+            className="w-full md:w-[400px] md:ml-20 opacity-[0.4] md:opacity-[0.6]"
           />
           <div className="md:block hidden">
             <img
