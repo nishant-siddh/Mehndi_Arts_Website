@@ -4,6 +4,8 @@ import img_3d_banner from "../images/3D/img20.jpg";
 import img1_3d from "../images/3D/img4.png";
 import img2_3d from "../images/3D/img9.png";
 import img3_3d from "../images/3D/img13.png";
+import img4_3d from "../images/madhubani_mehndi/img19.png";
+import img5_3d from "../images/madhubani_mehndi/img18.png";
 
 // rajashtani images
 import img_rajashtani_banner from "../images/rajasthani_mehndi/img14.jpg";
@@ -20,16 +22,14 @@ import img2_madhubani from "../images/madhubani_mehndi/img6.jpg";
 import img3_madhubani from "../images/madhubani_mehndi/img7.jpg";
 import img4_madhubani from "../images/madhubani_mehndi/img8.png";
 import img5_madhubani from "../images/madhubani_mehndi/img10.png";
-import img6_madhubani from "../images/madhubani_mehndi/img15.png";
-import img7_madhubani from "../images/madhubani_mehndi/img16.png";
-import img8_madhubani from "../images/madhubani_mehndi/img17.png";
-import img9_madhubani from "../images/madhubani_mehndi/img18.png";
-import img10_madhubani from "../images/madhubani_mehndi/img19.png";
 
 // festival images
 import img_festival_banner from "../images/festival_mehndi/img35.jpg";
 import img1_festival from "../images/festival_mehndi/img34.jpg";
 import img2_festival from "../images/festival_mehndi/img36.jpg";
+import img3_festival from "../images/madhubani_mehndi/img15.png";
+import img4_festival from "../images/madhubani_mehndi/img16.png";
+import img5_festival from "../images/madhubani_mehndi/img17.png";
 
 // bridal images
 import img_bridal_banner from "../images/bridal_mehndi/img37.jpg";
@@ -46,10 +46,10 @@ import img2_engagement from "../images/engagement_mehndi/img21.jpg";
 import img3_engagement from "../images/engagement_mehndi/img22.jpg";
 import img4_engagement from "../images/engagement_mehndi/img23.jpg";
 import img5_engagement from "../images/engagement_mehndi/img25.jpg";
-import img6_engagement from "../images/engagement_mehndi/img25.jpg";
-import img7_engagement from "../images/engagement_mehndi/img26.jpg";
-import img8_engagement from "../images/engagement_mehndi/img27.jpg";
-import img9_engagement from "../images/engagement_mehndi/img28.jpg";
+// import img6_engagement from "../images/engagement_mehndi/img25.jpg";
+// import img7_engagement from "../images/engagement_mehndi/img26.jpg";
+// import img8_engagement from "../images/engagement_mehndi/img27.jpg";
+// import img9_engagement from "../images/engagement_mehndi/img28.jpg";
 
 const ServicesPage = () => {
     const { name } = useParams();
@@ -69,6 +69,8 @@ const ServicesPage = () => {
                 img1_3d,
                 img2_3d,
                 img3_3d,
+                img4_3d,
+                img5_3d
             ],
         },
         {
@@ -99,11 +101,11 @@ const ServicesPage = () => {
                 img3_madhubani,
                 img4_madhubani,
                 img5_madhubani,
-                img6_madhubani,
-                img7_madhubani,
-                img8_madhubani,
-                img9_madhubani,
-                img10_madhubani,
+                // img6_madhubani,
+                // img7_madhubani,
+                // img8_madhubani,
+                // img9_madhubani,
+                // img10_madhubani,
             ],
         },
         {
@@ -118,10 +120,10 @@ const ServicesPage = () => {
                 img3_engagement,
                 img4_engagement,
                 img5_engagement,
-                img6_engagement,
-                img7_engagement,
-                img8_engagement,
-                img9_engagement,
+                // img6_engagement,
+                // img7_engagement,
+                // img8_engagement,
+                // img9_engagement,
             ],
         },
         {
@@ -133,6 +135,9 @@ const ServicesPage = () => {
                 img_festival_banner,
                 img1_festival,
                 img2_festival,
+                img3_festival,
+                img4_festival,
+                img5_festival
             ],
         },
         {
