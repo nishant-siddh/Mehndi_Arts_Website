@@ -1,5 +1,5 @@
 import logo from "../images/logo.png";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useEffect, useState } from "react";
 import { IoMdArrowDropdown } from "react-icons/io";
@@ -9,7 +9,6 @@ import { RxCross1 } from "react-icons/rx";
 const Header = () => {
   const [isServicesOpen, setIsServicesOpen] = useState(false);
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const location = useLocation();
   const services = [
     {
       to: "rajasthani-mehndi",
@@ -45,13 +44,6 @@ const Header = () => {
     }
   }, [isServicesOpen]);
 
-  useEffect(() => {
-    const aboutSection = document.getElementById("aboutSection");
-    if (location.hash === "#aboutSection") {
-      aboutSection.scrollIntoView({ behavior: "smooth" });
-    }
-  }, []);
-
   return (
     <nav
       className={`w-full fixed top-0 z-40 bg-[#4E6659] ease-in-out shadow-xl px-5`}
@@ -75,15 +67,23 @@ const Header = () => {
             } sm:flex-row justify-between items-center gap-10 sm:flex text-[#FFFFF0]/90 hover: text-[#FFFFF0]`}
           >
             <li>
-              <NavLink to="/" onClick={() => setIsNavOpen(false)}>Home</NavLink>
+              <NavLink to="/" onClick={() => setIsNavOpen(false)}>
+                Home
+              </NavLink>
             </li>
             <li>
-              <a href="/#aboutSection" className="cursor-pointer" onClick={() => setIsNavOpen(false)}>
+              <a
+                href="/#aboutSection"
+                className="cursor-pointer"
+                onClick={() => setIsNavOpen(false)}
+              >
                 About Us
               </a>
             </li>
             <li>
-              <NavLink to="/gallery" onClick={() => setIsNavOpen(false)}>Gallery</NavLink>
+              <NavLink to="/gallery" onClick={() => setIsNavOpen(false)}>
+                Gallery
+              </NavLink>
             </li>
             <li>
               <div
@@ -117,7 +117,9 @@ const Header = () => {
               </div>
             </li>
             <li>
-              <NavLink to="/contact-us" onClick={() => setIsNavOpen(false)}>Contact Us</NavLink>
+              <NavLink to="/contact-us" onClick={() => setIsNavOpen(false)}>
+                Contact Us
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -138,4 +140,3 @@ const Header = () => {
 };
 
 export default Header;
- 
